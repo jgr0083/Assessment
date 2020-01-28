@@ -9,6 +9,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
+
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.resources.Invoice;
@@ -27,9 +31,11 @@ import java.util.Random;
 public class UserBuy {
 	WebDriver driver;
 	Invoice invoice=new Invoice();
+    final static Logger logger = Logger.getLogger(MenuTest.class);	
 	
   @BeforeTest
   public void openBrowser() {
+		logger.setLevel(Level.DEBUG);
 		BrowserController browser=new BrowserController();
 		driver = browser.openBrowser("Chrome");
 		driver.manage().deleteAllCookies();
@@ -41,6 +47,7 @@ public class UserBuy {
 
   @Test
   public void loginAsNewUser() throws FileNotFoundException, IOException{
+	  logger.info("Running New User Login Test");
 	  NewUserLogin stuff =new NewUserLogin(driver);
 	  stuff.createNewUser();
 	  stuff.login();
@@ -59,15 +66,18 @@ public class UserBuy {
 	  
 	  List<WebElement> furnatureCategory= driver.findElements(By.cssSelector(".category-text"));
 	  furnatureCategory.get(randomSelect).click(); 
+	  logger.info("Selecting furnature type");
 
 	  randomSelect = rand.randomInt(0, 8);
 	  List<WebElement> furnature= driver.findElements(By.cssSelector(".btn1.mat-raised-button.mat-button-base"));
 	  furnature.get(randomSelect).click(); 
+	  logger.info("Selecting furnature");
 	  
 	  //WebElement details = driver.findElement(By.cssSelector(".rounded.ng-star-inserted"));
+	  logger.info("Recording Furnatue Details:");
 
 	  invoice.setName(driver.findElement(By.xpath(p.getProperty("selected-product") + "div[1]/div[1]/h1")).getText());
-	  System.out.println("Name: " + invoice.getName(0));
+	  logger.info("Name: " + invoice.getName(0));
 	  
 	  
 	  String priceString = driver.findElement(By.xpath(p.getProperty("selected-product") + "div[3]/span[1]")).getText();
@@ -75,21 +85,22 @@ public class UserBuy {
 	  Number number=NumberFormat.getNumberInstance(java.util.Locale.US).parse(priceString);
 	  double price = number.doubleValue();
 	  invoice.setPrice(price);
-	  System.out.println("Price: " + invoice.getPrice(0));
+	  logger.info("Price: " + invoice.getPrice(0));
 
 	  invoice.setDescription(driver.findElement(By.xpath(p.getProperty("selected-product") + "div[4]/div[2]")).getText());
-	  System.out.println("Description: " + invoice.getDescription(0));
+	  logger.info("Description: " + invoice.getDescription(0));
 	  
 	  invoice.setMaterial(driver.findElement(By.xpath(p.getProperty("selected-product") + "div[5]/div[2]")).getText());
-	  System.out.println("Material: " + invoice.getMaterial(0));
+	  logger.info("Material: " + invoice.getMaterial(0));
 	  
 	  invoice.setColor(driver.findElement(By.xpath(p.getProperty("selected-product") + "div[6]/div[2]")).getText());
-	  System.out.println("Color: " + invoice.getColor(0));
+	  logger.info("Color: " + invoice.getColor(0));
 	  
 	  invoice.setWarranty(driver.findElement(By.xpath(p.getProperty("selected-product") + "div[7]/div[2]")).getText());
-	  System.out.println("Warranty: " + invoice.getWarranty(0));
+	  logger.info("Warranty: " + invoice.getWarranty(0));
 
 	  ctrl.click(driver, By.cssSelector(".btn.btn-outline-success.space.ng-star-inserted"));
+	  logger.info("Add to Cart");
 	  
 			  
   }
@@ -108,6 +119,7 @@ public class UserBuy {
 	  
 	  List<WebElement> menuButtons=driver.findElements(By.cssSelector(".mat-button.mat-button-base"));
 	  menuButtons.get(1).click();
+	  logger.info("Opening Cart");
 	  
 	  
 	  String totalString = driver.findElement(By.xpath(p.getProperty("cart-layout") + "div[2]/div/div[2]/div/div/h5[2]")).getText();
@@ -118,6 +130,7 @@ public class UserBuy {
 	  System.out.println("Total: " +invoice.getTotal());
 	  
 	  ctrl.click(driver, By.cssSelector(".btn.btn-dark"));//Place order
+	  logger.info("Placing Order");
 	  
 	  
 	  
@@ -125,6 +138,7 @@ public class UserBuy {
 	  paymentOptions.get(randomSelect).click();
 		  
 	  ctrl.click(driver,  By.cssSelector(".btn.btn-success.ng-star-inserted"));//Place order
+	  logger.info("Submit Order");
 	  
 	  
 	  String invoiceNumberString = driver.findElement(By.xpath(p.getProperty("cart-layout") + "app-payment-layout/div/p-card/div/div/div/div/h3")).getText();
@@ -137,6 +151,7 @@ public class UserBuy {
   
   @AfterTest
   public void close() {
+	  logger.info("Test Complete");
 	  //driver.close();
   }
 }
