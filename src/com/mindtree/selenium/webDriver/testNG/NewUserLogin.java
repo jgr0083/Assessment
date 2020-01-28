@@ -10,6 +10,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
+
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
@@ -25,6 +29,7 @@ import java.util.Random;
 public class NewUserLogin {
 	WebDriver driver;
 	User user=new User();
+    final static Logger logger = Logger.getLogger(MenuTest.class);	
 	
 	NewUserLogin(WebDriver driver){
 		this.driver=driver;
@@ -32,6 +37,7 @@ public class NewUserLogin {
 	
   @Test
   public void openBrowser() {
+  		logger.setLevel(Level.DEBUG);
 		BrowserController browser=new BrowserController();
 		driver = browser.openBrowser("Chrome");
 		driver.manage().deleteAllCookies();
@@ -50,6 +56,7 @@ public class NewUserLogin {
 	  String ranName = rando.randomString(10);
 	  int phone = rando.randomInt(1000000000, 999999999); 
 	  String phoneString = Integer.toString(phone);
+	  logger.info("Generating user information...");
 
 	  user.setUsername("Test Name"+ranName);
 	  user.setPassword("Password123!");
@@ -61,9 +68,12 @@ public class NewUserLogin {
 	  driver.get("http://okmry52647dns.eastus.cloudapp.azure.com:9090");
 	  ctrl.max(driver);
 
+	  logger.info("Open Sign in page");
 	  ctrl.click(driver, By.xpath("//*[@id=\"navbarSupportedContent\"]/form/button[4]"));	//Selects Sign in button
+	  logger.info("Open Create Account Page");
 	  ctrl.click(driver, By.cssSelector(".btn.btn-primary.btn-md"));	//Clicks Create Account
 
+	  logger.info("Setting user information");
 	  ctrl.type(driver, By.id(p.getProperty("username")), "Test Name"+ranName);
 	  ctrl.type(driver, By.id(p.getProperty("phone")), phoneString);
 	  
@@ -72,10 +82,12 @@ public class NewUserLogin {
 	  
 	  List<WebElement> password = driver.findElements(By.id(p.getProperty("password")));
 	  password.get(1).sendKeys("Password123!");
-	  
+
+	  logger.info("Submitting new user");
 	  List<WebElement> submit = driver.findElements(By.cssSelector(".btn.btn-primary.btn-lg.btn-block"));
 	  submit.get(1).click();
 
+	  logger.info("Closing new user setup");
 	  List<WebElement> close = driver.findElements(By.cssSelector(".mat-icon.notranslate.material-icons.mat-icon-no-color"));
 	  close.get(11).click();
 	  
@@ -88,7 +100,8 @@ public class NewUserLogin {
 	  Properties p=new Properties();
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\login.properties");
 	  p.load(file);
-	  
+
+	  logger.info("Logging in as new user");
 	  List<WebElement> email = driver.findElements(By.id(p.getProperty("email")));
 	  email.get(0).sendKeys(user.getEmail());
 	  
@@ -101,6 +114,7 @@ public class NewUserLogin {
   
   @AfterTest
   public void close() {
+	  logger.info("Test Complete");
 	  //driver.close();
   }
 }

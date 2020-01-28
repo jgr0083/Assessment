@@ -2,6 +2,10 @@ package com.mindtree.selenium.webDriver.testNG;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,9 +28,12 @@ import java.util.Random;
 public class MenuTest {
 	WebDriver driver;
 	User user=new User();
-	
+    final static Logger logger = Logger.getLogger(MenuTest.class);	
+
   @BeforeTest
   public void openBrowser() {
+  		logger.setLevel(Level.DEBUG);
+	  	logger.info("Opening Browser");
 		BrowserController browser=new BrowserController();
 		driver = browser.openBrowser("Chrome");
 		driver.manage().deleteAllCookies();
@@ -34,8 +41,9 @@ public class MenuTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
-		driver.get("http://okmry52647dns.eastus.cloudapp.azure.com:9090");
+		driver.get("http://okmry52647dns.eastus.cloudapp.azure.com:9090/");
 		ctrl.max(driver);
+	  	logger.info("Maximize window");
   }
   
   @AfterMethod
@@ -45,7 +53,8 @@ public class MenuTest {
 	  Properties p=new Properties();
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
-
+	  
+	  logger.info("Open Home page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("home")));
 	  ctrl.pause(1000);
   }
@@ -57,6 +66,7 @@ public class MenuTest {
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
 
+	  logger.info("Open Chair page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("chairs")));
 
   }
@@ -68,6 +78,7 @@ public class MenuTest {
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
 
+	  logger.info("Open Sofa page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("sofas")));
 
   }
@@ -79,6 +90,7 @@ public class MenuTest {
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
 
+	  logger.info("Open Table page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("tables")));
   }
 
@@ -89,6 +101,7 @@ public class MenuTest {
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
 
+	  logger.info("Open Bed page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("beds")));
   }
   
@@ -99,12 +112,14 @@ public class MenuTest {
 	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
 	  p.load(file);
 
+	  logger.info("Open all Furnature page");
 	  ctrl.click(driver, By.cssSelector(p.getProperty("allFurnature")));
   }
   
 
   @AfterTest
   public void close() {
+	  logger.info("Test Complete");
 	  //driver.close();
   }
 }
