@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG">
+	<test name="TestNG features">		
+		<classes>
+			<class name="testNG.TestAnnotations">
+			
+			</class>
+			<class name="testNG.TestSequencing" />
+			<class name="testNG.TestAttributes" />
+		</classes>
+	</test>
+</suite>
