@@ -33,22 +33,13 @@ public class UserBuy {
 	Invoice invoice=new Invoice();
     final static Logger logger = Logger.getLogger(MenuTest.class);	
 	
-  @BeforeTest
-  public void openBrowser() {
-		logger.setLevel(Level.DEBUG);
-		BrowserController browser=new BrowserController();
-		driver = browser.openBrowser("Chrome");
-		driver.manage().deleteAllCookies();
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-
-  }
 
   @Test
   public void loginAsNewUser() throws FileNotFoundException, IOException{
 	  logger.info("Running New User Login Test");
-	  NewUserLogin stuff =new NewUserLogin(driver);
+	  NewUserLogin stuff =new NewUserLogin();
+	  driver=stuff.openBrowserNonNG();
 	  stuff.createNewUser();
 	  stuff.login();
   }
@@ -60,7 +51,7 @@ public class UserBuy {
 	  int randomSelect = rand.randomInt(0, 3);
 	  ctrl.pause(1000);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\buying.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\buying.properties");
 	  p.load(file);
 	  
 	  
@@ -112,7 +103,7 @@ public class UserBuy {
 	  RandomGenerator rand=new RandomGenerator();
 	  int randomSelect = rand.randomInt(0, 2);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\buying.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\buying.properties");
 	  p.load(file);
 	  
 	 
