@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import org.apache.log4j.Level;
@@ -30,27 +31,23 @@ public class NewUserLogin {
 	WebDriver driver;
 	User user=new User();
     final static Logger logger = Logger.getLogger(MenuTest.class);	
-	
-	NewUserLogin(WebDriver driver){
-		this.driver=driver;
-	}
-	
-  @Test
-  public void openBrowser() {
-  		logger.setLevel(Level.DEBUG);
-		BrowserController browser=new BrowserController();
-		driver = browser.openBrowser("Chrome");
-		driver.manage().deleteAllCookies();
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+    @Test
+    public void openBrowser() {
+  		BrowserController browser=new BrowserController();
+  		driver = browser.openBrowser("Chrome");
+  		driver.manage().deleteAllCookies();
 
-  }
+  		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+  		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+    }
+    
   
   @Test(dependsOnMethods = {"openBrowser"})
   public void createNewUser() throws FileNotFoundException, IOException {
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\login.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\login.properties");
 	  p.load(file);
 	  RandomGenerator rando= new RandomGenerator();
 	  String ranName = rando.randomString(10);
@@ -98,7 +95,7 @@ public class NewUserLogin {
   @Test(dependsOnMethods = {"openBrowser", "createNewUser"})
   public void login() throws FileNotFoundException, IOException {
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\login.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\login.properties");
 	  p.load(file);
 
 	  logger.info("Logging in as new user");
@@ -116,5 +113,17 @@ public class NewUserLogin {
   public void close() {
 	  logger.info("Test Complete");
 	  //driver.close();
+  }
+  
+
+  @Ignore
+  public WebDriver openBrowserNonNG() {
+		BrowserController browser=new BrowserController();
+		driver = browser.openBrowser("Chrome");
+		driver.manage().deleteAllCookies();
+
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		return driver;
   }
 }

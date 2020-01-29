@@ -10,8 +10,6 @@ public class logging {
   
     public static void main(String args[]) {
 
-    	logger.setLevel(Level.DEBUG);
-      
         logger.error("Critical message, almost fatal");
         logger.warn("Warnings, which may lead to system impact");
         logger.info("Information");

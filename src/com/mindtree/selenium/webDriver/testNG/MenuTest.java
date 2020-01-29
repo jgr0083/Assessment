@@ -32,7 +32,6 @@ public class MenuTest {
 
   @BeforeTest
   public void openBrowser() {
-  		logger.setLevel(Level.DEBUG);
 	  	logger.info("Opening Browser");
 		BrowserController browser=new BrowserController();
 		driver = browser.openBrowser("Chrome");
@@ -51,7 +50,7 @@ public class MenuTest {
 	  WindowController ctrl = new WindowController(driver);
 	  ctrl.pause(1000);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 	  
 	  logger.info("Open Home page");
@@ -63,7 +62,7 @@ public class MenuTest {
   public void openChairs() throws FileNotFoundException, IOException {
 	  WindowController ctrl = new WindowController(driver);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 
 	  logger.info("Open Chair page");
@@ -75,7 +74,7 @@ public class MenuTest {
   public void openSofas() throws FileNotFoundException, IOException {
 	  WindowController ctrl = new WindowController(driver);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 
 	  logger.info("Open Sofa page");
@@ -87,7 +86,7 @@ public class MenuTest {
   public void openTables() throws FileNotFoundException, IOException {
 	  WindowController ctrl = new WindowController(driver);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 
 	  logger.info("Open Table page");
@@ -98,7 +97,7 @@ public class MenuTest {
   public void openBeds() throws FileNotFoundException, IOException {
 	  WindowController ctrl = new WindowController(driver);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 
 	  logger.info("Open Bed page");
@@ -109,7 +108,7 @@ public class MenuTest {
   public void openAll() throws FileNotFoundException, IOException {
 	  WindowController ctrl = new WindowController(driver);
 	  Properties p=new Properties();
-	  FileInputStream file = new FileInputStream("..\\Assessment\\src\\categories.properties");
+	  FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
 	  p.load(file);
 
 	  logger.info("Open all Furnature page");

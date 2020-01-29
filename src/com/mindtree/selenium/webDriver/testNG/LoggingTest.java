@@ -32,7 +32,6 @@ public class LoggingTest {
 
   @Test
   public void openBrowser() {
-  	logger.setLevel(Level.DEBUG);
     
     logger.error("Critical message, almost fatal");
     logger.warn("Warnings, which may lead to system impact");
