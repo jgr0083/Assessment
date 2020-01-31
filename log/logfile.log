@@ -56,3 +56,60 @@
 2020-01-28 19:59:03,360  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 124 - Placing Order
 2020-01-28 19:59:03,613  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 132 - Submit Order
 2020-01-28 19:59:03,922  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 145 - Test Complete
+2020-01-30 21:11:50,853  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.loginAsNewUser 41 - Running New User Login Test
+2020-01-30 21:12:02,089  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 56 - Generating user information...
+2020-01-30 21:12:13,022  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 68 - Open Sign in page
+2020-01-30 21:12:13,132  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 70 - Open Create Account Page
+2020-01-30 21:12:13,481  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 73 - Setting user information
+2020-01-30 21:12:15,048  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 83 - Submitting new user
+2020-01-30 21:12:15,131  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 87 - Closing new user setup
+2020-01-30 21:12:15,214  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.login 101 - Logging in as new user
+2020-01-30 21:12:16,749  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 61 - Selecting furnature type
+2020-01-30 21:12:18,346  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 66 - Selecting furnature
+2020-01-30 21:12:18,347  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 69 - Recording Furnatue Details:
+2020-01-30 21:12:18,565  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 72 - Name: raya sofa
+2020-01-30 21:12:18,644  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 80 - Price: 122221.44
+2020-01-30 21:12:18,671  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 83 - Description: fghjkl;
+2020-01-30 21:12:18,699  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 86 - Material: hjk
+2020-01-30 21:12:18,728  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 89 - Color: red
+2020-01-30 21:12:18,757  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 92 - Warranty: 1 year
+2020-01-30 21:12:18,822  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 95 - Add to Cart
+2020-01-30 21:12:18,901  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 114 - Opening Cart
+2020-01-30 21:12:19,570  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 125 - Placing Order
+2020-01-30 21:12:19,819  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 133 - Submit Order
+2020-01-30 21:12:24,846  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 147 - Test Complete
+2020-01-30 21:14:06,116  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.loginAsNewUser 41 - Running New User Login Test
+2020-01-30 21:14:13,237  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 56 - Generating user information...
+2020-01-30 21:14:22,206  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 68 - Open Sign in page
+2020-01-30 21:14:22,284  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 70 - Open Create Account Page
+2020-01-30 21:14:22,894  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 73 - Setting user information
+2020-01-30 21:14:23,903  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 83 - Submitting new user
+2020-01-30 21:14:24,011  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.createNewUser 87 - Closing new user setup
+2020-01-30 21:14:24,094  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.login 101 - Logging in as new user
+2020-01-30 21:14:25,609  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 61 - Selecting furnature type
+2020-01-30 21:14:26,673  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 66 - Selecting furnature
+2020-01-30 21:14:26,674  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 69 - Recording Furnatue Details:
+2020-01-30 21:14:26,925  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 72 - Name: table
+2020-01-30 21:14:26,956  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 80 - Price: 9505.65
+2020-01-30 21:14:26,985  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 83 - Description: sad
+2020-01-30 21:14:27,012  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 86 - Material: asd
+2020-01-30 21:14:27,040  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 89 - Color: red
+2020-01-30 21:14:27,069  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 92 - Warranty: 23 year
+2020-01-30 21:14:27,136  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.addRandomItemToCart 95 - Add to Cart
+2020-01-30 21:14:27,214  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 114 - Opening Cart
+2020-01-30 21:14:27,714  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 125 - Placing Order
+2020-01-30 21:14:27,966  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.placeOrder 133 - Submit Order
+2020-01-30 21:14:29,120  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 147 - Test Complete
+2020-01-30 21:17:29,714  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBrowser 37 - Opening Browser
+2020-01-30 21:17:45,155  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBrowser 47 - Maximize window
+2020-01-30 21:17:45,198  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openAll 116 - Open all Furnature page
+2020-01-30 21:17:46,277  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-01-30 21:17:47,450  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBeds 105 - Open Bed page
+2020-01-30 21:17:48,535  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-01-30 21:17:49,647  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openChairs 70 - Open Chair page
+2020-01-30 21:17:50,744  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-01-30 21:17:51,842  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openSofas 82 - Open Sofa page
+2020-01-30 21:17:52,923  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-01-30 21:17:54,041  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openTables 94 - Open Table page
+2020-01-30 21:17:55,136  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-01-30 21:17:58,077  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 124 - Test Complete

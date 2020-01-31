@@ -15,6 +15,7 @@ import org.apache.log4j.PatternLayout;
 
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
+import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.resources.Invoice;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
@@ -32,7 +33,7 @@ public class UserBuy {
 	WebDriver driver;
 	Invoice invoice=new Invoice();
     final static Logger logger = Logger.getLogger(MenuTest.class);	
-	
+	SendEmail email = new SendEmail();
 
 
   @Test
@@ -142,6 +143,7 @@ public class UserBuy {
   
   @AfterTest
   public void close() {
+	  email.send("UserBuy");
 	  logger.info("Test Complete");
 	  //driver.close();
   }

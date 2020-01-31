@@ -15,6 +15,7 @@ import org.testng.annotations.*;
 
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
+import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
 
@@ -29,6 +30,7 @@ public class MenuTest {
 	WebDriver driver;
 	User user=new User();
     final static Logger logger = Logger.getLogger(MenuTest.class);	
+	SendEmail email = new SendEmail();
 
   @BeforeTest
   public void openBrowser() {
@@ -118,6 +120,7 @@ public class MenuTest {
 
   @AfterTest
   public void close() {
+	  email.send("MenuTest");
 	  logger.info("Test Complete");
 	  //driver.close();
   }
