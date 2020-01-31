@@ -17,6 +17,7 @@ import org.apache.log4j.PatternLayout;
 
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
+import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
 
@@ -31,7 +32,8 @@ public class NewUserLogin {
 	WebDriver driver;
 	User user=new User();
     final static Logger logger = Logger.getLogger(MenuTest.class);	
-
+	SendEmail email = new SendEmail();
+	
     @Test
     public void openBrowser() {
   		BrowserController browser=new BrowserController();
@@ -111,6 +113,7 @@ public class NewUserLogin {
   
   @AfterTest
   public void close() {
+	  email.send("NewUserLogin");
 	  logger.info("Test Complete");
 	  //driver.close();
   }

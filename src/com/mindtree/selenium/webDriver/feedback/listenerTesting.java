@@ -1,4 +1,4 @@
-package com.mindtree.selenium.webDriver.logger;
+package com.mindtree.selenium.webDriver.feedback;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
