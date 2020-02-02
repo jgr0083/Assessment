@@ -113,3 +113,16 @@
 2020-01-30 21:17:54,041  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openTables 94 - Open Table page
 2020-01-30 21:17:55,136  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
 2020-01-30 21:17:58,077  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 124 - Test Complete
+2020-02-01 18:33:47,394  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBrowser 37 - Opening Browser
+2020-02-01 18:34:20,870  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBrowser 47 - Maximize window
+2020-02-01 18:34:21,221  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openAll 116 - Open all Furnature page
+2020-02-01 18:34:22,713  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-02-01 18:34:24,350  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openBeds 105 - Open Bed page
+2020-02-01 18:34:25,455  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-02-01 18:34:26,548  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openChairs 70 - Open Chair page
+2020-02-01 18:34:27,627  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-02-01 18:34:28,704  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openSofas 82 - Open Sofa page
+2020-02-01 18:34:29,798  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-02-01 18:34:30,922  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.openTables 94 - Open Table page
+2020-02-01 18:34:31,990  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.home 58 - Open Home page
+2020-02-01 18:34:40,131  INFO [main] - com.mindtree.selenium.webDriver.testNG.MenuTest.close 124 - Test Complete
