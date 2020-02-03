@@ -6,8 +6,21 @@ public class User {
 	private String password;
 	private String email;
 	private String phone;
-	
-	
+	private int userID;
+	private int cartID;
+
+	public int getCartID() {
+		return cartID;
+	}
+	public void setCartID(int cartID) {
+		this.cartID = cartID;
+	}
+	public int getUserID() {
+		return userID;
+	}
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
 	public String getUsername() {
 		return username;
 	}
