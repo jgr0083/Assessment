@@ -33,7 +33,7 @@ public class InvokeBrowserMain {
 	public static void main(String[] args) {
 		InvokeBrowserMain invoke = new InvokeBrowserMain();
 		BasicCommands links=new BasicCommands();
-		String browserType[]= {"Chrome", "FireFox", "Opera", "theBadOne"};
+		String browserType[]= {"Chrome", "FireFox", "Opera", "theBadOne"};//In case of mutliple types of browsers
 
 		invoke.invokeBrowser(browserType[0]);
 		

@@ -16,7 +16,7 @@ public class BrowserController {
 		switch(browserType) {
 		case "Chrome":
 			System.out.println("Opening " + browserType);
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jarell\\Selenium-Workspace\\SeleniumIDE\\lib\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "..\\lib\\chromedriver_win32\\chromedriver.exe");
 			return new ChromeDriver();
 		case "FireFox":
 			System.out.println("Opening " + browserType);

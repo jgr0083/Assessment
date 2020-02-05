@@ -244,3 +244,7 @@
 2020-02-02 21:23:12,343  INFO [main] - com.mindtree.selenium.webDriver.resources.JDBCDriver.verifyUserIDFromInvoice 87 - Cart ID = 222
 2020-02-02 21:23:12,343  INFO [main] - com.mindtree.selenium.webDriver.testNG.UserBuy.placeOrder 176 - User ID Matched. Invoice is linked to correct user 
 2020-02-02 21:23:15,065  INFO [main] - com.mindtree.selenium.webDriver.testNG.UserBuy.close 185 - Test Complete
+ERROR - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging; Critical message, almost fatal
+WARN  - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging; Warnings, which may lead to system impact
+INFO  - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging; Information
+DEBUG - 2020-02-05 04:16:15.725; com.mindtree.selenium.webDriver.testNG.logging; Debugging information 

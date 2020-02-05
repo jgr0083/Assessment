@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.Ignore;
+//import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import org.apache.log4j.Level;
@@ -36,7 +36,7 @@ public class NewUserLogin {
 	final static Logger logger = Logger.getLogger(NewUserLogin.class);
 	SendEmail email = new SendEmail();
 
-	@Ignore
+	//@Ignore
 	public User getUser() {
 		return user;
 	}
@@ -142,7 +142,7 @@ public class NewUserLogin {
 		// driver.close();
 	}
 
-	@Ignore
+	//@Ignore
 	public WebDriver openBrowserNonNG() {
 		BrowserController browser = new BrowserController();
 		driver = browser.openBrowser("Chrome");
