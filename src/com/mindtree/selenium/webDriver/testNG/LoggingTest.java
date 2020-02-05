@@ -25,6 +25,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 
+//This class is for debugging the logger
 public class LoggingTest {
 	WebDriver driver;
 	User user=new User();

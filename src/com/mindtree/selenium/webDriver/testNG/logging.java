@@ -5,6 +5,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
+//This class is for debugging the logger
 public class logging {
     final static Logger logger = Logger.getLogger(logging.class);
   
