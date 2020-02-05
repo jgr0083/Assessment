@@ -248,3 +248,35 @@ ERROR - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging;
 WARN  - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging; Warnings, which may lead to system impact
 INFO  - 2020-02-05 04:16:15.709; com.mindtree.selenium.webDriver.testNG.logging; Information
 DEBUG - 2020-02-05 04:16:15.725; com.mindtree.selenium.webDriver.testNG.logging; Debugging information 
+INFO  - 2020-02-05 04:33:18.442; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:34:48.577; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:35:35.956; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:36:07.556; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:36:37.670; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:47:10.888; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:47:16.075; com.mindtree.selenium.webDriver.testNG.MenuTest; Maximize window
+INFO  - 2020-02-05 04:47:16.087; com.mindtree.selenium.webDriver.testNG.MenuTest; Open all Furnature page
+INFO  - 2020-02-05 04:47:17.179; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:47:18.288; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Bed page
+INFO  - 2020-02-05 04:47:19.368; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:47:20.440; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Chair page
+INFO  - 2020-02-05 04:47:21.536; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:47:22.638; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Sofa page
+INFO  - 2020-02-05 04:47:23.719; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:47:24.816; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Table page
+INFO  - 2020-02-05 04:47:25.913; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:47:27.779; com.mindtree.selenium.webDriver.testNG.MenuTest; Test Complete
+INFO  - 2020-02-05 04:48:11.975; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:48:43.794; com.mindtree.selenium.webDriver.testNG.MenuTest; Opening Browser
+INFO  - 2020-02-05 04:48:48.754; com.mindtree.selenium.webDriver.testNG.MenuTest; Maximize window
+INFO  - 2020-02-05 04:48:48.765; com.mindtree.selenium.webDriver.testNG.MenuTest; Open all Furnature page
+INFO  - 2020-02-05 04:48:49.863; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:48:51.001; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Bed page
+INFO  - 2020-02-05 04:48:52.098; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:48:53.185; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Chair page
+INFO  - 2020-02-05 04:48:54.269; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:48:55.346; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Sofa page
+INFO  - 2020-02-05 04:48:56.430; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:48:57.501; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Table page
+INFO  - 2020-02-05 04:48:58.587; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
+INFO  - 2020-02-05 04:49:00.357; com.mindtree.selenium.webDriver.testNG.MenuTest; Test Complete
