@@ -17,9 +17,9 @@ import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.resources.Invoice;
-import com.mindtree.selenium.webDriver.resources.JDBCDriver;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
+import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

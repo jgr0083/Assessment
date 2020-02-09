@@ -1,4 +1,4 @@
-package com.mindtree.selenium.webDriver.resources;
+package com.mindtree.selenium.webDriver.utils;
 import java.sql.*;
 import java.util.Set;
 
