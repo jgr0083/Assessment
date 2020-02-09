@@ -37,6 +37,7 @@ public class MenuTest {
 	  	logger.info("Opening Browser");
 		BrowserController browser=new BrowserController();
 		driver = browser.openBrowser("Chrome");
+		System.out.println("HERE");
 		driver.manage().deleteAllCookies();
 	 	WindowController ctrl = new WindowController(driver);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
