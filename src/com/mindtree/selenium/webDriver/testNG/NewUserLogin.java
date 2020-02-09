@@ -18,9 +18,9 @@ import org.apache.log4j.PatternLayout;
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.feedback.SendEmail;
-import com.mindtree.selenium.webDriver.resources.JDBCDriver;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
+import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -117,7 +117,8 @@ public class NewUserLogin {
 
 		// role="alertdialog"
 	}
-
+	
+//Page object model for Selenium ***
 	@Test(dependsOnMethods = { "openBrowser", "createNewUser" })
 	public void login() throws FileNotFoundException, IOException {
 		Properties p = new Properties();
@@ -139,7 +140,7 @@ public class NewUserLogin {
 	public void close() {
 		email.send("NewUserLogin");
 		logger.info("Test Complete");
-		// driver.close();
+		driver.close();
 	}
 
 	//@Ignore
