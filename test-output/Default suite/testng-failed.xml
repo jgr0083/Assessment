@@ -5,14 +5,10 @@
     <classes>
       <class name="com.mindtree.selenium.webDriver.testNG.MenuTest">
         <methods>
-          <include name="openSofas"/>
           <include name="openBrowser"/>
           <include name="home"/>
           <include name="close"/>
-          <include name="openTables"/>
-          <include name="openChairs"/>
-          <include name="openAll"/>
-          <include name="openBeds"/>
+          <include name="cart"/>
         </methods>
       </class> <!-- com.mindtree.selenium.webDriver.testNG.MenuTest -->
     </classes>
