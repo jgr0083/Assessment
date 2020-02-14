@@ -397,3 +397,49 @@ INFO  - 2020-02-10 21:30:32.060; com.mindtree.selenium.webDriver.testNG.MenuTest
 INFO  - 2020-02-10 21:30:32.130; com.mindtree.selenium.webDriver.testNG.MenuTest; Opened wishlist
 INFO  - 2020-02-10 21:30:33.208; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
 INFO  - 2020-02-10 21:30:35.430; com.mindtree.selenium.webDriver.testNG.MenuTest; Test Complete
+INFO  - 2020-02-13 21:51:26.069; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:51:26.087; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:51:34.178; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:51:34.634; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:51:34.871; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:51:35.684; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:51:35.743; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:51:37.993; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namezyryvlhijkb not found in DB
+INFO  - 2020-02-13 21:52:26.299; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:52:26.305; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:52:33.076; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:52:33.152; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:52:33.547; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:52:34.178; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:52:34.234; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:52:36.399; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namevtjcvfdhxxw not found in DB
+INFO  - 2020-02-13 21:52:36.405; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:52:40.473; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+INFO  - 2020-02-13 21:54:39.679; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:54:39.682; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:54:46.450; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:54:46.523; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:54:46.897; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:54:47.504; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:54:47.563; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:54:49.737; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Nametoggkdkhfwr not found in DB
+INFO  - 2020-02-13 21:56:53.271; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:56:53.278; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:57:00.365; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:57:00.441; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:57:00.749; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:57:01.336; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:57:01.401; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:57:03.585; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namewnzgpfrwqwp not found in DB
+INFO  - 2020-02-13 21:57:03.589; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:57:06.088; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+INFO  - 2020-02-13 21:57:53.309; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:57:53.312; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:58:00.129; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:58:00.203; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:58:00.494; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:58:01.066; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:58:01.127; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:58:03.328; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Nameucxzasnpahg not found in DB
+INFO  - 2020-02-13 21:58:03.332; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:58:06.679; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
