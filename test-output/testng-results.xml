@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20813" started-at="2020-02-13T21:57:45 CST" finished-at="2020-02-13T21:58:06 CST">
+  <suite name="Default suite" duration-ms="26559" started-at="2020-02-15T13:48:23 CST" finished-at="2020-02-15T13:48:50 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20813" started-at="2020-02-13T21:57:45 CST" finished-at="2020-02-13T21:58:06 CST">
-      <class name="com.mindtree.selenium.webDriver.testNG.NewUserLogin">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.NewUserLogin@cb51256]" name="openBrowser" duration-ms="6344" started-at="2020-02-13T21:57:45 CST" finished-at="2020-02-13T21:57:52 CST">
+    <test name="Default test" duration-ms="26559" started-at="2020-02-15T13:48:23 CST" finished-at="2020-02-15T13:48:50 CST">
+      <class name="com.mindtree.selenium.webDriver.testNG.UserBuy">
+        <test-method status="PASS" signature="loginAsNewUser()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.UserBuy@45b4c3a9]" name="loginAsNewUser" duration-ms="16719" started-at="2020-02-15T13:48:23 CST" finished-at="2020-02-15T13:48:40 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createNewUser()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.NewUserLogin@cb51256]" name="createNewUser" duration-ms="11082" started-at="2020-02-13T21:57:52 CST" depends-on-methods="com.mindtree.selenium.webDriver.testNG.NewUserLogin.openBrowser" finished-at="2020-02-13T21:58:03 CST">
+        </test-method> <!-- loginAsNewUser -->
+        <test-method status="PASS" signature="addRandomItemToCart()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.UserBuy@45b4c3a9]" name="addRandomItemToCart" duration-ms="4687" started-at="2020-02-15T13:48:40 CST" depends-on-methods="com.mindtree.selenium.webDriver.testNG.UserBuy.loginAsNewUser" finished-at="2020-02-15T13:48:45 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewUser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.NewUserLogin@cb51256]" name="login" duration-ms="350" started-at="2020-02-13T21:58:03 CST" depends-on-methods="com.mindtree.selenium.webDriver.testNG.NewUserLogin.createNewUser, com.mindtree.selenium.webDriver.testNG.NewUserLogin.openBrowser" finished-at="2020-02-13T21:58:03 CST">
+        </test-method> <!-- addRandomItemToCart -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.UserBuy@45b4c3a9]" name="placeOrder" duration-ms="2990" started-at="2020-02-15T13:48:45 CST" depends-on-methods="com.mindtree.selenium.webDriver.testNG.UserBuy.addRandomItemToCart" finished-at="2020-02-15T13:48:48 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.NewUserLogin@cb51256]" name="close" is-config="true" duration-ms="2999" started-at="2020-02-13T21:58:03 CST" finished-at="2020-02-13T21:58:06 CST">
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.UserBuy@45b4c3a9]" name="close" is-config="true" duration-ms="2116" started-at="2020-02-15T13:48:48 CST" finished-at="2020-02-15T13:48:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.mindtree.selenium.webDriver.testNG.NewUserLogin -->
+      </class> <!-- com.mindtree.selenium.webDriver.testNG.UserBuy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

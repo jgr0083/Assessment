@@ -41,5 +41,35 @@ public class HomePage {
 			break;
 		}
 	}
+	
+
+	public void randomCategory(WebDriver driver, int category) throws IOException {
+		Properties p = new Properties();
+		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\categories.properties");
+		p.load(file);
+
+		switch (category) {
+		case 0:
+			element = driver.findElement(By.cssSelector(p.getProperty("chairs")));
+			element.click();
+			break;
+		case 1:
+			element = driver.findElement(By.cssSelector(p.getProperty("sofas")));
+			element.click();
+			break;
+		case 2:
+			element = driver.findElement(By.cssSelector(p.getProperty("tables")));
+			element.click();
+			break;
+		case 3:
+			element = driver.findElement(By.cssSelector(p.getProperty("beds")));
+			element.click();
+			break;
+		case 4:
+			element = driver.findElement(By.cssSelector(p.getProperty("allFurnature")));
+			element.click();
+			break;
+		}
+	}
 
 }
