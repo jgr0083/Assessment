@@ -114,7 +114,7 @@ public class MenuTest {
 		ctrl.pause(1000);
 	}
 
-	@Ignore
+	//@Ignore
 	public void cart() throws FileNotFoundException, IOException {
 		WindowController ctrl = new WindowController(driver);
 		menu.cart(driver);
