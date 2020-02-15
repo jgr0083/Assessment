@@ -397,3 +397,142 @@ INFO  - 2020-02-10 21:30:32.060; com.mindtree.selenium.webDriver.testNG.MenuTest
 INFO  - 2020-02-10 21:30:32.130; com.mindtree.selenium.webDriver.testNG.MenuTest; Opened wishlist
 INFO  - 2020-02-10 21:30:33.208; com.mindtree.selenium.webDriver.testNG.MenuTest; Open Home page
 INFO  - 2020-02-10 21:30:35.430; com.mindtree.selenium.webDriver.testNG.MenuTest; Test Complete
+INFO  - 2020-02-13 21:51:26.069; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:51:26.087; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:51:34.178; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:51:34.634; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:51:34.871; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:51:35.684; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:51:35.743; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:51:37.993; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namezyryvlhijkb not found in DB
+INFO  - 2020-02-13 21:52:26.299; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:52:26.305; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:52:33.076; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:52:33.152; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:52:33.547; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:52:34.178; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:52:34.234; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:52:36.399; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namevtjcvfdhxxw not found in DB
+INFO  - 2020-02-13 21:52:36.405; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:52:40.473; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+INFO  - 2020-02-13 21:54:39.679; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:54:39.682; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:54:46.450; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:54:46.523; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:54:46.897; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:54:47.504; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:54:47.563; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:54:49.737; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Nametoggkdkhfwr not found in DB
+INFO  - 2020-02-13 21:56:53.271; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:56:53.278; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:57:00.365; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:57:00.441; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:57:00.749; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:57:01.336; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:57:01.401; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:57:03.585; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Namewnzgpfrwqwp not found in DB
+INFO  - 2020-02-13 21:57:03.589; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:57:06.088; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+INFO  - 2020-02-13 21:57:53.309; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-13 21:57:53.312; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-13 21:58:00.129; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-13 21:58:00.203; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-13 21:58:00.494; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-13 21:58:01.066; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-13 21:58:01.127; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+ERROR - 2020-02-13 21:58:03.328; com.mindtree.selenium.webDriver.testNG.NewUserLogin; User Test Nameucxzasnpahg not found in DB
+INFO  - 2020-02-13 21:58:03.332; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-13 21:58:06.679; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+INFO  - 2020-02-15 13:28:21.152; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:28:21.301; com.mindtree.selenium.webDriver.testNG.UserBuy; Running New User Login Test
+INFO  - 2020-02-15 13:28:30.379; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:28:30.380; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-15 13:28:39.543; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-15 13:28:39.892; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-15 13:28:40.103; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-15 13:28:41.300; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-15 13:28:41.370; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-15 13:28:43.528; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 419
+INFO  - 2020-02-15 13:28:43.528; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 419
+INFO  - 2020-02-15 13:28:43.529; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-15 13:28:44.977; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature type
+INFO  - 2020-02-15 13:28:45.751; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature
+INFO  - 2020-02-15 13:28:45.751; com.mindtree.selenium.webDriver.testNG.UserBuy; Recording Furnatue Details:
+INFO  - 2020-02-15 13:28:46.417; com.mindtree.selenium.webDriver.testNG.UserBuy; Name: a
+INFO  - 2020-02-15 13:28:46.447; com.mindtree.selenium.webDriver.testNG.UserBuy; Price: 0.99
+INFO  - 2020-02-15 13:28:46.475; com.mindtree.selenium.webDriver.testNG.UserBuy; Description: a
+INFO  - 2020-02-15 13:28:46.501; com.mindtree.selenium.webDriver.testNG.UserBuy; Material: a
+INFO  - 2020-02-15 13:28:46.528; com.mindtree.selenium.webDriver.testNG.UserBuy; Color: a
+INFO  - 2020-02-15 13:28:46.554; com.mindtree.selenium.webDriver.testNG.UserBuy; Warranty: 1 year
+INFO  - 2020-02-15 13:28:46.621; com.mindtree.selenium.webDriver.testNG.UserBuy; Add to Cart
+INFO  - 2020-02-15 13:28:48.752; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 204
+INFO  - 2020-02-15 13:28:48.753; com.mindtree.selenium.webDriver.testNG.UserBuy; cart ID found: 204
+INFO  - 2020-02-15 13:28:48.830; com.mindtree.selenium.webDriver.testNG.UserBuy; Opening Cart
+INFO  - 2020-02-15 13:28:49.280; com.mindtree.selenium.webDriver.testNG.UserBuy; Placing Order
+INFO  - 2020-02-15 13:28:49.528; com.mindtree.selenium.webDriver.testNG.UserBuy; Submit Order
+INFO  - 2020-02-15 13:28:51.831; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 419
+INFO  - 2020-02-15 13:28:51.832; com.mindtree.selenium.webDriver.testNG.UserBuy; User ID Matched. Invoice is linked to correct user 
+INFO  - 2020-02-15 13:28:54.463; com.mindtree.selenium.webDriver.testNG.UserBuy; Test Complete
+INFO  - 2020-02-15 13:45:58.807; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:45:58.889; com.mindtree.selenium.webDriver.testNG.UserBuy; Running New User Login Test
+INFO  - 2020-02-15 13:46:05.425; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:46:05.426; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-15 13:46:12.213; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-15 13:46:12.293; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-15 13:46:12.578; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-15 13:46:13.179; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-15 13:46:13.247; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-15 13:46:15.446; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 420
+INFO  - 2020-02-15 13:46:15.447; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 420
+INFO  - 2020-02-15 13:46:15.448; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-15 13:46:16.911; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature type
+INFO  - 2020-02-15 13:46:17.907; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature
+INFO  - 2020-02-15 13:46:17.907; com.mindtree.selenium.webDriver.testNG.UserBuy; Recording Furnatue Details:
+INFO  - 2020-02-15 13:46:18.501; com.mindtree.selenium.webDriver.testNG.UserBuy; Name: Cambridge chair
+INFO  - 2020-02-15 13:46:18.533; com.mindtree.selenium.webDriver.testNG.UserBuy; Price: 8400.0
+INFO  - 2020-02-15 13:46:18.561; com.mindtree.selenium.webDriver.testNG.UserBuy; Description: can hold weght about 100kg
+INFO  - 2020-02-15 13:46:18.592; com.mindtree.selenium.webDriver.testNG.UserBuy; Material: Wood, Iron
+INFO  - 2020-02-15 13:46:18.621; com.mindtree.selenium.webDriver.testNG.UserBuy; Color: yellow
+INFO  - 2020-02-15 13:46:18.650; com.mindtree.selenium.webDriver.testNG.UserBuy; Warranty: 1 year
+INFO  - 2020-02-15 13:46:18.716; com.mindtree.selenium.webDriver.testNG.UserBuy; Add to Cart
+INFO  - 2020-02-15 13:46:20.805; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 206
+INFO  - 2020-02-15 13:46:20.806; com.mindtree.selenium.webDriver.testNG.UserBuy; cart ID found: 206
+INFO  - 2020-02-15 13:46:20.886; com.mindtree.selenium.webDriver.testNG.UserBuy; Opening Cart
+INFO  - 2020-02-15 13:46:21.361; com.mindtree.selenium.webDriver.testNG.UserBuy; Setting Total: 8400.0
+INFO  - 2020-02-15 13:46:21.440; com.mindtree.selenium.webDriver.testNG.UserBuy; Placing Order
+INFO  - 2020-02-15 13:46:21.732; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting payment type: 0
+INFO  - 2020-02-15 13:46:21.802; com.mindtree.selenium.webDriver.testNG.UserBuy; Submit Order
+INFO  - 2020-02-15 13:46:44.001; com.mindtree.selenium.webDriver.testNG.UserBuy; Test Complete
+INFO  - 2020-02-15 13:48:23.711; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:48:23.791; com.mindtree.selenium.webDriver.testNG.UserBuy; Running New User Login Test
+INFO  - 2020-02-15 13:48:30.464; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-15 13:48:30.465; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-15 13:48:36.837; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-15 13:48:36.916; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-15 13:48:37.225; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-15 13:48:37.883; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-15 13:48:37.959; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-15 13:48:40.139; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 421
+INFO  - 2020-02-15 13:48:40.140; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 421
+INFO  - 2020-02-15 13:48:40.141; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-15 13:48:41.611; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature type
+INFO  - 2020-02-15 13:48:42.690; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting furnature
+INFO  - 2020-02-15 13:48:42.691; com.mindtree.selenium.webDriver.testNG.UserBuy; Recording Furnatue Details:
+INFO  - 2020-02-15 13:48:42.895; com.mindtree.selenium.webDriver.testNG.UserBuy; Name: chair
+INFO  - 2020-02-15 13:48:42.926; com.mindtree.selenium.webDriver.testNG.UserBuy; Price: 1222221.33
+INFO  - 2020-02-15 13:48:42.952; com.mindtree.selenium.webDriver.testNG.UserBuy; Description: sfdfg
+INFO  - 2020-02-15 13:48:42.979; com.mindtree.selenium.webDriver.testNG.UserBuy; Material: dhfgm
+INFO  - 2020-02-15 13:48:43.014; com.mindtree.selenium.webDriver.testNG.UserBuy; Color: red
+INFO  - 2020-02-15 13:48:43.044; com.mindtree.selenium.webDriver.testNG.UserBuy; Warranty: 1 year
+INFO  - 2020-02-15 13:48:43.113; com.mindtree.selenium.webDriver.testNG.UserBuy; Add to Cart
+INFO  - 2020-02-15 13:48:45.162; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 207
+INFO  - 2020-02-15 13:48:45.162; com.mindtree.selenium.webDriver.testNG.UserBuy; cart ID found: 207
+INFO  - 2020-02-15 13:48:45.277; com.mindtree.selenium.webDriver.testNG.UserBuy; Opening Cart
+INFO  - 2020-02-15 13:48:45.619; com.mindtree.selenium.webDriver.testNG.UserBuy; Setting Total: 1222221.33
+INFO  - 2020-02-15 13:48:45.683; com.mindtree.selenium.webDriver.testNG.UserBuy; Placing Order
+INFO  - 2020-02-15 13:48:45.860; com.mindtree.selenium.webDriver.testNG.UserBuy; Selecting payment type: 0
+INFO  - 2020-02-15 13:48:45.933; com.mindtree.selenium.webDriver.testNG.UserBuy; Submit Order
+INFO  - 2020-02-15 13:48:46.127; com.mindtree.selenium.webDriver.testNG.UserBuy; Invoice #: 36269369
+INFO  - 2020-02-15 13:48:48.197; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 421
+INFO  - 2020-02-15 13:48:48.197; com.mindtree.selenium.webDriver.testNG.UserBuy; User ID Matched. Invoice is linked to correct user 
+INFO  - 2020-02-15 13:48:50.316; com.mindtree.selenium.webDriver.testNG.UserBuy; Test Complete

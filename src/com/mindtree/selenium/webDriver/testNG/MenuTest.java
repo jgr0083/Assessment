@@ -142,6 +142,6 @@ public class MenuTest {
 	public void close() {
 		email.send("MenuTest");
 		logger.info("Test Complete");
-		// driver.close();
+		driver.close();
 	}
 }
