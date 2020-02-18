@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mindtree.selenium.webDriver.testNG.UserBuy">
+      <class name="com.mindtree.selenium.webDriver.testNG.NewUserLogin">
         <methods>
-          <include name="loginAsNewUser"/>
-          <include name="placeOrder"/>
+          <include name="createNewUser"/>
+          <include name="openBrowser"/>
           <include name="close"/>
-          <include name="addRandomItemToCart"/>
+          <include name="getResponse"/>
         </methods>
-      </class> <!-- com.mindtree.selenium.webDriver.testNG.UserBuy -->
+      </class> <!-- com.mindtree.selenium.webDriver.testNG.NewUserLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
