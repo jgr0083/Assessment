@@ -536,3 +536,573 @@ INFO  - 2020-02-15 13:48:46.127; com.mindtree.selenium.webDriver.testNG.UserBuy;
 INFO  - 2020-02-15 13:48:48.197; com.mindtree.selenium.webDriver.utils.JDBCDriver; Cart ID = 421
 INFO  - 2020-02-15 13:48:48.197; com.mindtree.selenium.webDriver.testNG.UserBuy; User ID Matched. Invoice is linked to correct user 
 INFO  - 2020-02-15 13:48:50.316; com.mindtree.selenium.webDriver.testNG.UserBuy; Test Complete
+DEBUG - 2020-02-17 19:04:20.091; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:04:20.119; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:04:20.121; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:04:20.138; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:04:20.140; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:04:20.255; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:04:20.330; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:57633<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:04:20.330; org.apache.http.impl.execchain.MainClientExec; Executing request GET / HTTP/1.1
+DEBUG - 2020-02-17 19:04:20.330; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:04:20.331; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:04:20.333; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET / HTTP/1.1
+DEBUG - 2020-02-17 19:04:20.333; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:04:20.333; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:04:20.334; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:04:20.334; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:04:20.334; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET / HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.335; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.335; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.336; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.336; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.336; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.401; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:04:20.401; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.401; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.402; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.402; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.402; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.402; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.402; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.403; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.403; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.403; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.403; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.403; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Length: 69[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.404; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:04:20 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.404; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:04:20.404; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+DEBUG - 2020-02-17 19:04:20.408; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:04:20.408; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:04:20.408; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:04:20.408; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:04:20.409; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:04:20.410; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:04:20.410; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG - 2020-02-17 19:04:20.410; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Length: 69
+DEBUG - 2020-02-17 19:04:20.410; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:04:20 GMT
+DEBUG - 2020-02-17 19:04:20.415; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:04:20.419; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:04:20.419; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:04:20.419; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:05:27.794; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:05:27.808; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:05:27.810; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:05:27.827; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:05:27.829; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:05:27.866; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:05:27.934; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:57674<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:05:27.935; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:05:27.936; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:05:27.937; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:05:27.941; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:05:27.942; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:05:27.943; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:05:27.943; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:05:27.944; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:05:27.945; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:05:27.947; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:05:27.947; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:05:27.948; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:05:27.948; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:05:27.949; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.027; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:05:28.028; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.028; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.029; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.029; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.030; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.030; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.030; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.031; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.031; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.032; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.032; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.033; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.033; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.034; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:05:27 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.034; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.034; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.035; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.042; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:05:28.043; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:05:28.043; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:05:28.044; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:05:28.044; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:05:28.044; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:05:28.045; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:05:28.045; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:05:28.045; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:05:28.046; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:05:28.047; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:05:28.047; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:05:28.048; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:05:28.048; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:05:28.048; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:05:27 GMT
+DEBUG - 2020-02-17 19:05:28.063; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:05:28.068; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.068; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:05:28.069; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:05:28.069; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:05:28.069; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:06:29.927; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:06:29.942; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:06:29.944; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:06:29.962; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:06:29.964; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:06:30.014; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:06:30.085; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:57706<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:06:30.085; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:06:30.086; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:06:30.087; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:06:30.088; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:06:30.089; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:06:30.089; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:06:30.089; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:06:30.089; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:06:30.090; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.091; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.091; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.091; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.091; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.092; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.194; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:06:30.194; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.195; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.195; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.196; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.196; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.197; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.197; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.198; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.198; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.199; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.199; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.200; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.200; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.201; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:06:30 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.201; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.202; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.203; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.211; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:06:30.212; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:06:30.212; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:06:30.213; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:06:30.213; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:06:30.214; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:06:30.214; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:06:30.215; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:06:30.215; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:06:30.216; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:06:30.216; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:06:30.216; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:06:30.217; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:06:30.217; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:06:30.218; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:06:30 GMT
+DEBUG - 2020-02-17 19:06:30.229; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:06:30.232; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.232; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:06:30.233; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:06:30.233; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:06:30.233; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:07:15.386; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:07:15.400; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:07:15.402; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:07:15.419; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:07:15.421; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:07:15.461; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:07:15.536; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:57730<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:07:15.537; org.apache.http.impl.execchain.MainClientExec; Executing request GET / HTTP/1.1
+DEBUG - 2020-02-17 19:07:15.537; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:07:15.539; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:07:15.543; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET / HTTP/1.1
+DEBUG - 2020-02-17 19:07:15.543; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:07:15.544; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:07:15.544; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:07:15.545; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:07:15.546; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET / HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.548; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.549; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.549; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.550; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.550; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.623; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:07:15.623; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.623; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.624; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.624; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.624; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.624; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.625; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Length: 69[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.626; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:07:15 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.626; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:07:15.626; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+DEBUG - 2020-02-17 19:07:15.630; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:07:15.630; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:07:15.630; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:07:15.630; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:07:15.631; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:07:15.632; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:07:15.632; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG - 2020-02-17 19:07:15.632; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Length: 69
+DEBUG - 2020-02-17 19:07:15.633; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:07:15 GMT
+DEBUG - 2020-02-17 19:07:15.638; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:07:15.641; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:07:15.642; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:07:15.642; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:15:17.466; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:15:17.480; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:15:17.481; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:15:17.498; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:15:17.500; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:15:17.580; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:15:17.655; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:58064<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:15:17.656; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:15:17.657; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:15:17.658; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:15:17.662; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:15:17.662; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:15:17.663; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:15:17.663; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:15:17.664; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:15:17.665; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.667; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.667; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.668; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.668; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.669; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.747; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:15:17.748; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.748; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.749; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.749; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.750; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.750; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.751; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.751; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.752; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.752; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.753; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.753; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.754; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.754; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:15:17 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.754; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.755; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.756; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.762; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:15:17.763; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:15:17.763; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:15:17.764; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:15:17.764; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:15:17.764; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:15:17.765; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:15:17.765; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:15:17.766; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:15:17.766; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:15:17.766; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:15:17.767; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:15:17.767; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:15:17.768; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:15:17.768; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:15:17 GMT
+DEBUG - 2020-02-17 19:15:17.779; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:15:17.782; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.782; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:15:17.783; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:15:17.783; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:15:17.783; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:15:38.836; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:15:38.851; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:15:38.852; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:15:38.869; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:15:38.871; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:15:39.083; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:15:39.146; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:58078<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:15:39.147; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:15:39.147; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:15:39.149; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:15:39.153; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:15:39.153; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:15:39.153; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:15:39.153; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:15:39.153; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:15:39.154; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.156; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.157; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.158; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.158; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.159; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.231; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:15:39.232; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.233; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.233; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.234; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.234; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.234; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.235; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.235; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.236; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.236; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.237; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.237; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.238; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.238; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:15:39 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.238; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.239; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.240; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.246; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:15:39.247; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:15:39.248; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:15:39.248; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:15:39.248; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:15:39.249; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:15:39.249; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:15:39.250; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:15:39.250; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:15:39.251; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:15:39.251; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:15:39.251; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:15:39.252; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:15:39.252; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:15:39.252; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:15:39 GMT
+DEBUG - 2020-02-17 19:15:39.261; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:15:39.265; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.265; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:15:39.266; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:15:39.266; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:15:39.266; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:16:03.675; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:16:03.689; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:16:03.691; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:16:03.708; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:16:03.710; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:16:03.803; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:16:03.881; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:58093<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:16:03.882; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:16:03.883; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:16:03.884; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:16:03.888; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:16:03.889; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:16:03.889; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:16:03.889; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:16:03.890; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:16:03.890; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:16:03.892; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:16:03.893; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:16:03.893; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:16:03.894; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:16:03.894; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.036; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:16:04.037; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.038; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.038; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.039; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.039; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.039; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.040; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.040; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.041; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.041; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.042; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.042; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.043; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.043; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:16:03 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.043; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.044; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.045; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.053; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:16:04.053; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:16:04.054; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:16:04.055; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:16:04.056; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:16:04.056; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:16:04.056; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:16:04.057; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:16:04.057; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:16:04.058; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:16:04.058; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:16:04.058; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:16:04.059; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:16:04.059; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:16:04.060; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:16:03 GMT
+DEBUG - 2020-02-17 19:16:04.070; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:16:04.074; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.074; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:16:04.074; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:16:04.074; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:16:04.075; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:17:13.166; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:17:13.181; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:17:13.182; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:17:13.199; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:17:13.201; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:17:13.242; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:17:13.309; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:58134<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:17:13.310; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:17:13.310; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:17:13.312; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:17:13.315; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:17:13.316; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:17:13.317; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:17:13.317; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:17:13.318; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:17:13.318; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.320; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.321; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.321; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.322; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.322; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.405; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:17:13.406; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.406; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.407; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.407; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.408; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.408; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.408; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.409; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.409; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.410; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.410; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.411; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.411; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.412; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:17:13 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.412; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.413; org.apache.http.impl.conn.Wire; http-outgoing-0 << "ca0[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.413; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.420; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:17:13.421; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:17:13.421; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:17:13.422; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:17:13.422; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:17:13.422; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:17:13.423; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:17:13.423; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:17:13.423; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:17:13.424; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:17:13.424; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:17:13.425; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:17:13.425; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:17:13.425; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:17:13.425; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:17:13 GMT
+DEBUG - 2020-02-17 19:17:13.433; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:17:13.437; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.437; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:17:13.438; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:17:13.438; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:17:13.438; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+INFO  - 2020-02-17 19:31:18.632; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-17 19:31:18.639; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-17 19:31:32.278; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-17 19:31:32.569; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-17 19:31:32.799; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-17 19:31:33.508; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-17 19:31:33.581; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-17 19:31:35.762; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 553
+INFO  - 2020-02-17 19:31:35.763; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 553
+INFO  - 2020-02-17 19:31:35.923; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-17 19:31:39.193; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+DEBUG - 2020-02-17 19:31:39.535; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager is shutting down
+DEBUG - 2020-02-17 19:31:39.536; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager shut down
+INFO  - 2020-02-17 19:33:29.907; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-17 19:33:29.996; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-17 19:33:37.012; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-17 19:33:37.089; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-17 19:33:37.507; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-17 19:33:38.074; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-17 19:33:38.140; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-17 19:33:40.323; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 554
+INFO  - 2020-02-17 19:33:40.324; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 554
+INFO  - 2020-02-17 19:33:40.468; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+INFO  - 2020-02-17 19:33:43.150; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete
+DEBUG - 2020-02-17 19:33:43.339; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager is shutting down
+DEBUG - 2020-02-17 19:33:43.340; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager shut down
+INFO  - 2020-02-17 19:34:18.674; com.mindtree.selenium.webDriver.utils.JDBCDriver; Succesfully connected to DB
+INFO  - 2020-02-17 19:34:18.694; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Generating user information...
+INFO  - 2020-02-17 19:34:26.496; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Sign in page
+INFO  - 2020-02-17 19:34:26.573; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Open Create Account Page
+INFO  - 2020-02-17 19:34:26.808; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Setting user information
+INFO  - 2020-02-17 19:34:27.430; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Submitting new user
+INFO  - 2020-02-17 19:34:27.490; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Closing new user setup
+INFO  - 2020-02-17 19:34:29.658; com.mindtree.selenium.webDriver.utils.JDBCDriver; User ID = 555
+INFO  - 2020-02-17 19:34:29.659; com.mindtree.selenium.webDriver.testNG.NewUserLogin; userId ID found: 555
+DEBUG - 2020-02-17 19:34:29.814; org.apache.http.client.protocol.RequestAddCookies; CookieSpec selected: default
+DEBUG - 2020-02-17 19:34:29.826; org.apache.http.client.protocol.RequestAuthCache; Auth cache not set in the context
+DEBUG - 2020-02-17 19:34:29.827; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection request: [route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG - 2020-02-17 19:34:29.844; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection leased: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG - 2020-02-17 19:34:29.846; org.apache.http.impl.execchain.MainClientExec; Opening connection {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:34:29.848; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connecting to okmry52647dns.eastus.cloudapp.azure.com/40.71.176.50:8089
+DEBUG - 2020-02-17 19:34:30.262; org.apache.http.impl.conn.DefaultHttpClientConnectionOperator; Connection established 192.168.1.226:59273<->40.71.176.50:8089
+DEBUG - 2020-02-17 19:34:30.263; org.apache.http.impl.execchain.MainClientExec; Executing request GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:34:30.263; org.apache.http.impl.execchain.MainClientExec; Target auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:34:30.264; org.apache.http.impl.execchain.MainClientExec; Proxy auth state: UNCHALLENGED
+DEBUG - 2020-02-17 19:34:30.266; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> GET /rest/api/profile/mobile-number HTTP/1.1
+DEBUG - 2020-02-17 19:34:30.266; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+DEBUG - 2020-02-17 19:34:30.267; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Connection: Keep-Alive
+DEBUG - 2020-02-17 19:34:30.267; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+DEBUG - 2020-02-17 19:34:30.267; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG - 2020-02-17 19:34:30.268; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "GET /rest/api/profile/mobile-number HTTP/1.1[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.268; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.268; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.268; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.269; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.269; org.apache.http.impl.conn.Wire; http-outgoing-0 >> "[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.350; org.apache.http.impl.conn.Wire; http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG - 2020-02-17 19:34:30.351; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.351; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.351; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.352; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.352; org.apache.http.impl.conn.Wire; http-outgoing-0 << "status: 200 OK[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.353; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.353; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.354; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.354; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.354; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Expires: 0[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.355; org.apache.http.impl.conn.Wire; http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.355; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.355; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.356; org.apache.http.impl.conn.Wire; http-outgoing-0 << "Date: Tue, 18 Feb 2020 01:34:30 GMT[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.356; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.357; org.apache.http.impl.conn.Wire; http-outgoing-0 << "cc7[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.358; org.apache.http.impl.conn.Wire; http-outgoing-0 << "{"message":"Mobile Numbers Fetched Successfully","httpStatus":"200 OK","httpStatusCode":302,"body":["9439436006","9047290680","9790701322","1322131321","1313213213","9876543212","9340098351","9320526994","9206277630","1213131231","1213131239","1213131221","3141414141","3456789011","8338865709","4366732456","1213131232","8050458202","1322131313","1313121313","2132131321","3211321313","1234567890","8197620440","1232131313","8266535677","9040982905","9090909090","9090909099","9010605980","9012345677","7777777777","7777777776","3232323232","3232323230","9840415151","6824019284","9087676876","1965779527","1699050759","2112322343","8768878788","8768578788","34567821","564321787","345677820","3256778820","5643217787","5653217787","5663217787","6663217787","6163217787","6263217787","4567418500","9868474432","9529418137","8273273728","4698165366","2134567897","6462217087","string","1234567897","1234567410","1500656371","6562217087","1984559737","6563217087","6763217087","6573217087","6583217087","6593217087","6593227087","7593227087","8593227087","9593227087","9593227088","9087654321","9491289974","9620550962","9436641730","9293336787","9895798788","1010101010","9729488431","9902582638","1231006544","6586484843","1231326544","9757365710","9735157563","7602063400","2141231234","9106875063","1428367456","1167186991","1900564323","1298108102","1578538498","8927143645","1221122111","1717418195","1894451644","1053212794","1210247550","1233211233","9834567812","9862514243","8778679999","7778679999","9876556789","4568679999","1499691657","1681462726","8768670788","4668679999","7654321234","1212122323","7635689123","9087676879","9087349838","7657349838","4665979999","9722664157","5645654645","2322345454","9873452387","9873452389","9873452381","9873452382","1234549838","bghdjjcjfb","9433881829","9420079578","9444529065","9924904672","9886394363","9603936718","dcjkjcdfhf","dkigijihci","4865206620","3780148867","760206340","9337509406","9257602264","9640617486","9104206762","9834578483","9875678912","9823456719","9834575931","9823456749","0000000009","6789123467","1534622881","6654640027","7969861084","9418442570","8753209867","4699206089","1111111111","9152391895","9778057043","9873452383","9873452393","8324688822","4696625753","7899975628","8538578355","9873452598","9367928847","8638578355","8738578355","8758578355","8584758585","4815841327","7655443234","9876543234","76545678899","3456789876","8345498234","9876546546","9876543210","9385355234","7235689567","7259418383","9118641831","9642990879","7256789123","2121212121","3456780976","1714335902","1866602592","1447535351","7259412345","0000000008","1245673425","2233112211","3332223332","","8765554443","2040654296","7422827530","9243952184","9440125014","9914468496","9537580039","9985096286","9649340057","6751429384","8024013640","4058782777","1465289217","4195811120","4887046728","0026815487","2532293640","3465308231","2157986600","8320439169","4324087492","5811676208","2770525510","9874563210","7845578965","7845888965","7539585245","9872208193","7658904321","2341231231","9716292622","9644774046","9784371810","9124879250","9019543544","9704438782","9459040951","3496286386","9285815524","9651236611","9015725452","1234245299","1368835647","1405521605"],"success":true,"error":false}[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.364; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << HTTP/1.1 200 
+DEBUG - 2020-02-17 19:34:30.364; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG - 2020-02-17 19:34:30.365; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+DEBUG - 2020-02-17 19:34:30.365; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Max-Age: 3600
+DEBUG - 2020-02-17 19:34:30.365; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+DEBUG - 2020-02-17 19:34:30.366; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << status: 200 OK
+DEBUG - 2020-02-17 19:34:30.366; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG - 2020-02-17 19:34:30.366; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG - 2020-02-17 19:34:30.367; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+DEBUG - 2020-02-17 19:34:30.367; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Pragma: no-cache
+DEBUG - 2020-02-17 19:34:30.368; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Expires: 0
+DEBUG - 2020-02-17 19:34:30.368; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << X-Frame-Options: DENY
+DEBUG - 2020-02-17 19:34:30.368; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG - 2020-02-17 19:34:30.369; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG - 2020-02-17 19:34:30.369; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0 << Date: Tue, 18 Feb 2020 01:34:30 GMT
+DEBUG - 2020-02-17 19:34:30.379; org.apache.http.impl.execchain.MainClientExec; Connection can be kept alive indefinitely
+DEBUG - 2020-02-17 19:34:30.382; org.apache.http.impl.conn.Wire; http-outgoing-0 << "0[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.383; org.apache.http.impl.conn.Wire; http-outgoing-0 << "[\r][\n]"
+DEBUG - 2020-02-17 19:34:30.383; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089] can be kept alive indefinitely
+DEBUG - 2020-02-17 19:34:30.383; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: set socket timeout to 0
+DEBUG - 2020-02-17 19:34:30.383; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection released: [id: 0][route: {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+INFO  - 2020-02-17 19:34:30.388; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Logging in as new user
+DEBUG - 2020-02-17 19:34:30.838; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager is shutting down
+DEBUG - 2020-02-17 19:34:30.839; org.apache.http.impl.conn.LoggingManagedHttpClientConnection; http-outgoing-0: Close connection
+DEBUG - 2020-02-17 19:34:30.840; org.apache.http.impl.conn.PoolingHttpClientConnectionManager; Connection manager shut down
+INFO  - 2020-02-17 19:34:33.124; com.mindtree.selenium.webDriver.testNG.NewUserLogin; Test Complete

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Jarell\AppData\Local\Temp\testng-eclipse-1719021516\testng-customsuite.xml</span>
+                    <span>C:\Users\Jarell\AppData\Local\Temp\testng-eclipse-1548328329\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.UserBuy" hash-for-method="addRandomItemToCart">addRandomItemToCart</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.NewUserLogin" hash-for-method="createNewUser">createNewUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.UserBuy" hash-for-method="loginAsNewUser">loginAsNewUser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.NewUserLogin" hash-for-method="getResponse">getResponse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.UserBuy" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.NewUserLogin" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mindtree.selenium.webDriver.testNG.NewUserLogin" hash-for-method="openBrowser">openBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,28 +135,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.mindtree.selenium.webDriver.testNG.UserBuy</span>
+              <span class="class-name">com.mindtree.selenium.webDriver.testNG.NewUserLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addRandomItemToCart">
-                  </a> <!-- addRandomItemToCart -->
-                  <span class="method-name">addRandomItemToCart</span>
+                  <a name="createNewUser">
+                  </a> <!-- createNewUser -->
+                  <span class="method-name">createNewUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAsNewUser">
-                  </a> <!-- loginAsNewUser -->
-                  <span class="method-name">loginAsNewUser</span>
+                  <a name="getResponse">
+                  </a> <!-- getResponse -->
+                  <span class="method-name">getResponse</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="placeOrder">
-                  </a> <!-- placeOrder -->
-                  <span class="method-name">placeOrder</span>
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser">
+                  </a> <!-- openBrowser -->
+                  <span class="method-name">openBrowser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Jarell\AppData\Local\Temp\testng-eclipse-1719021516\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Jarell\AppData\Local\Temp\testng-eclipse-1548328329\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.mindtree.selenium.webDriver.testNG.UserBuy&quot;/&gt;
+      &lt;class name=&quot;com.mindtree.selenium.webDriver.testNG.NewUserLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -208,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginAsNewUser')
-data.setCell(0, 2, 'com.mindtree.selenium.webDriver.testNG.UserBuy')
-data.setCell(0, 3, 16719);
+data.setCell(0, 1, 'createNewUser')
+data.setCell(0, 2, 'com.mindtree.selenium.webDriver.testNG.NewUserLogin')
+data.setCell(0, 3, 12134);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addRandomItemToCart')
-data.setCell(1, 2, 'com.mindtree.selenium.webDriver.testNG.UserBuy')
-data.setCell(1, 3, 4687);
+data.setCell(1, 1, 'openBrowser')
+data.setCell(1, 2, 'com.mindtree.selenium.webDriver.testNG.NewUserLogin')
+data.setCell(1, 3, 6380);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'placeOrder')
-data.setCell(2, 2, 'com.mindtree.selenium.webDriver.testNG.UserBuy')
-data.setCell(2, 3, 2990);
+data.setCell(2, 1, 'getResponse')
+data.setCell(2, 2, 'com.mindtree.selenium.webDriver.testNG.NewUserLogin')
+data.setCell(2, 3, 724);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.mindtree.selenium.webDriver.testNG.NewUserLogin')
+data.setCell(3, 3, 339);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,22 +267,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mindtree.selenium.webDriver.testNG.UserBuy</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.mindtree.selenium.webDriver.testNG.NewUserLogin</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginAsNewUser</span>
+                <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">addRandomItemToCart</span>
-                <span class="method-start">16723 ms</span>
+                <span class="method-name">createNewUser</span>
+                <span class="method-start">6384 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">placeOrder</span>
-                <span class="method-start">21424 ms</span>
+                <span class="method-name">getResponse</span>
+                <span class="method-start">18520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">19246 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">24417 ms</span>
+                <span class="method-start">19587 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
