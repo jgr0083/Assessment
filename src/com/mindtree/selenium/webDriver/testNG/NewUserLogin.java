@@ -10,7 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 //import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
@@ -21,12 +25,17 @@ import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.pages.MenuBar;
 import com.mindtree.selenium.webDriver.pages.SignInPage;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
+import com.mindtree.selenium.webDriver.resources.RestResources;
 import com.mindtree.selenium.webDriver.resources.User;
 import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
+import static org.testng.Assert.assertTrue;
+
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.util.List;
 import java.util.Properties;
@@ -37,7 +46,6 @@ public class NewUserLogin {
 	User user = new User();
 	final static Logger logger = Logger.getLogger(NewUserLogin.class);
 	SendEmail email = new SendEmail();
-
 	//@Ignore
 	public User getUser() {
 		return user;
@@ -95,7 +103,7 @@ public class NewUserLogin {
 		logger.info("Closing new user setup");
 		sign.close(driver);
 		
-		ctrl.pause(2000);
+		ctrl.pause(5000);
 		
 		//verify User in DB
 		int userId=jdbc.getUserID(conn, user.getEmail(), user.getPhone());
@@ -138,5 +146,18 @@ public class NewUserLogin {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		return driver;
+	}
+
+	@Test(dependsOnMethods = { "createNewUser" })
+	public void getResponse() throws ClientProtocolException, IOException {
+
+		Properties p = new Properties();		
+		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\rest.properties");
+		p.load(file);
+		RestResources rest=new RestResources();
+
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("phone"), user.getPhone());
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("email"), user.getEmail());
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("profile"), Integer.toString(user.getUserID()));
 	}
 }

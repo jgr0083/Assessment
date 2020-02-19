@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
-
+import org.apache.http.client.ClientProtocolException;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
@@ -25,6 +25,7 @@ import com.mindtree.selenium.webDriver.pages.MenuBar;
 import com.mindtree.selenium.webDriver.pages.PaymentPage;
 import com.mindtree.selenium.webDriver.resources.Invoice;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
+import com.mindtree.selenium.webDriver.resources.RestResources;
 import com.mindtree.selenium.webDriver.resources.User;
 import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
@@ -164,7 +165,17 @@ public class UserBuy {
 		
 		
 	}
+	
+	@Test(dependsOnMethods = { "placeOrder" })
+	public void getResponse() throws ClientProtocolException, IOException {
 
+		Properties p = new Properties();		
+		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\rest.properties");
+		p.load(file);
+		RestResources rest=new RestResources();
+
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("order")+user.getUserID(), Integer.toString(invoice.getInvoiceNumber()));
+	}
 	@AfterTest
 	public void close() {
 		email.send("UserBuy");

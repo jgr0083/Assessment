@@ -28,7 +28,9 @@ public class WindowController {
 	public void forward(WebDriver driver) {
 		driver.navigate().forward();
 		System.out.println("Forward... New page: " +driver.getTitle());
-
+	}
+	public String getURL(WebDriver driver) {
+		return driver.getCurrentUrl();
 	}
 	public void refresh(WebDriver driver) {
 		driver.navigate().refresh();
