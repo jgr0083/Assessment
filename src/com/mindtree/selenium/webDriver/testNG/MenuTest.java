@@ -128,7 +128,7 @@ public class MenuTest {
 		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("wish"));
 	}
 
-	@Ignore
+	//@Ignore
 	public void cart() throws FileNotFoundException, IOException {
 		WindowController ctrl = new WindowController(driver);
 		menu.cart(driver);
