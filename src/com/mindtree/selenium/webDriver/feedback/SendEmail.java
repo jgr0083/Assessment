@@ -74,7 +74,7 @@ public class SendEmail {
             
             //Attachment
             messageBodyPart = new MimeBodyPart();
-            String filename = "C:\\Users\\Jarell\\Selenium-Workspace\\Assessment\\log\\logfile.log";
+            String filename = "..\\Assessment\\log\\logfile.log";
             DataSource source = new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler(source));
             messageBodyPart.setFileName(filename);
