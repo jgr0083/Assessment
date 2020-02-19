@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import com.mindtree.selenium.webDriver.basic.BrowserController;
@@ -35,9 +36,13 @@ public class MenuTest {
 	SendEmail email = new SendEmail();
 	HomePage homePage = new HomePage();
 	MenuBar menu = null;
-
+	Properties p = new Properties();
+	FileInputStream file;
+	
 	@BeforeTest
-	public void openBrowser() {
+	public void openBrowser() throws IOException {		
+		file = new FileInputStream("..\\Assessment\\properties\\page.properties");
+		p.load(file);
 		logger.info("Opening Browser");
 		BrowserController browser = new BrowserController();
 		driver = browser.openBrowser("Chrome");
@@ -53,9 +58,11 @@ public class MenuTest {
 
 	@AfterMethod
 	public void home() throws FileNotFoundException, IOException {
+		WindowController ctrl= new WindowController(driver);
 		menu = new MenuBar();
 		menu.home(driver);
 		logger.info("Open Home page");
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("home"));
 	}
 
 	@Test
@@ -64,6 +71,7 @@ public class MenuTest {
 		homePage.Browse(driver, "chairs");
 		logger.info("Open Chair page");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("chairs"));
 	}
 
 	@Test
@@ -72,6 +80,7 @@ public class MenuTest {
 		homePage.Browse(driver, "sofas");
 		logger.info("Open Sofa page");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("sofas"));
 	}
 
 	@Test
@@ -80,6 +89,7 @@ public class MenuTest {
 		homePage.Browse(driver, "tables");
 		logger.info("Open Table page");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("tables"));
 	}
 
 	@Test
@@ -88,6 +98,7 @@ public class MenuTest {
 		homePage.Browse(driver, "beds");
 		logger.info("Open Bed page");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("beds"));
 	}
 
 	@Test
@@ -96,6 +107,7 @@ public class MenuTest {
 		homePage.Browse(driver, "all");
 		logger.info("Open all Furnature page");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("all"));
 	}
 
 	@Test
@@ -104,6 +116,7 @@ public class MenuTest {
 		menu.search(driver, "Chair");
 		logger.info("Searched for Chair");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("search")+"Chair");
 	}
 
 	@Test
@@ -112,6 +125,7 @@ public class MenuTest {
 		menu.wishlist(driver);
 		logger.info("Opened wishlist");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("wish"));
 	}
 
 	@Ignore
@@ -120,6 +134,7 @@ public class MenuTest {
 		menu.cart(driver);
 		logger.info("Opened cart");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("cart"));
 	}
 
 	@Test
@@ -128,6 +143,7 @@ public class MenuTest {
 		menu.support(driver);
 		logger.info("Opened support");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("support"));//support will fail if not logged in
 	}
 
 	@Test
@@ -136,8 +152,10 @@ public class MenuTest {
 		menu.signin(driver);
 		logger.info("Opened signin");
 		ctrl.pause(1000);
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("signin"));
 	}
-
+	
+	
 	@AfterTest
 	public void close() {
 		email.send("MenuTest");

@@ -25,6 +25,7 @@ import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.pages.MenuBar;
 import com.mindtree.selenium.webDriver.pages.SignInPage;
 import com.mindtree.selenium.webDriver.resources.RandomGenerator;
+import com.mindtree.selenium.webDriver.resources.RestResources;
 import com.mindtree.selenium.webDriver.resources.User;
 import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
@@ -102,7 +103,7 @@ public class NewUserLogin {
 		logger.info("Closing new user setup");
 		sign.close(driver);
 		
-		ctrl.pause(2000);
+		ctrl.pause(5000);
 		
 		//verify User in DB
 		int userId=jdbc.getUserID(conn, user.getEmail(), user.getPhone());
@@ -150,24 +151,13 @@ public class NewUserLogin {
 	@Test(dependsOnMethods = { "createNewUser" })
 	public void getResponse() throws ClientProtocolException, IOException {
 
-		Properties p = new Properties();
+		Properties p = new Properties();		
 		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\rest.properties");
 		p.load(file);
-		
-		HttpClient client = HttpClientBuilder.create().build();
-		HttpGet request =new HttpGet(p.getProperty("endpoint")+p.getProperty("phone"));
-		HttpResponse response = client.execute(request);
-		BufferedReader br = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-		String line="";
-		StringBuffer sb= new StringBuffer();
-		while((line=br.readLine())!=null) {
-			sb.append(line);
-		}
-		System.out.println(response.getStatusLine());
-		System.out.println(sb);
-		String actualString=sb.toString();
-		String status=response.getStatusLine().toString();
-		assertTrue(actualString.contains(user.getPhone()));
-		assertTrue(status.contains("200"));
+		RestResources rest=new RestResources();
+
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("phone"), user.getPhone());
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("email"), user.getEmail());
+		rest.getResponse(p.getProperty("endpoint"), p.getProperty("profile"), Integer.toString(user.getUserID()));
 	}
 }
