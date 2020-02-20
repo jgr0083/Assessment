@@ -2,6 +2,7 @@ package com.mindtree.selenium.webDriver.testNG;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.http.client.ClientProtocolException;
 import org.apache.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
@@ -13,6 +14,7 @@ import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.pages.HomePage;
 import com.mindtree.selenium.webDriver.pages.MenuBar;
+import com.mindtree.selenium.webDriver.resources.RestResources;
 import com.mindtree.selenium.webDriver.resources.User;
 
 import java.io.FileInputStream;
@@ -144,6 +146,12 @@ public class MenuTest {
 		logger.info("Opened signin");
 		ctrl.pause(1000);
 		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("signin"));
+	}
+	
+	@Test
+	public void post() throws ClientProtocolException, IOException {
+		RestResources rest=new RestResources();
+		rest.postResponse();
 	}
 	
 	
