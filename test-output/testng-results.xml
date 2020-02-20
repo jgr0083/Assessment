@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28004" started-at="2020-02-18T21:51:33 CST" finished-at="2020-02-18T21:52:01 CST">
+  <suite name="Default suite" duration-ms="31227" started-at="2020-02-19T19:23:55 CST" finished-at="2020-02-19T19:24:26 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28004" started-at="2020-02-18T21:51:33 CST" finished-at="2020-02-18T21:52:01 CST">
+    <test name="Default test" duration-ms="31227" started-at="2020-02-19T19:23:55 CST" finished-at="2020-02-19T19:24:26 CST">
       <class name="com.mindtree.selenium.webDriver.testNG.MenuTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openBrowser" is-config="true" duration-ms="14128" started-at="2020-02-18T21:51:33 CST" finished-at="2020-02-18T21:51:47 CST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openBrowser" is-config="true" duration-ms="14642" started-at="2020-02-19T19:23:55 CST" finished-at="2020-02-19T19:24:10 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openAll()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openAll" duration-ms="1096" started-at="2020-02-18T21:51:47 CST" finished-at="2020-02-18T21:51:48 CST">
+        <test-method status="PASS" signature="openAll()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openAll" duration-ms="1097" started-at="2020-02-19T19:24:10 CST" finished-at="2020-02-19T19:24:11 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAll -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="199" started-at="2020-02-18T21:51:48 CST" finished-at="2020-02-18T21:51:48 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="104" started-at="2020-02-19T19:24:11 CST" finished-at="2020-02-19T19:24:11 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="openBeds()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openBeds" duration-ms="1106" started-at="2020-02-18T21:51:48 CST" finished-at="2020-02-18T21:51:49 CST">
+        <test-method status="PASS" signature="openBeds()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openBeds" duration-ms="1082" started-at="2020-02-19T19:24:11 CST" finished-at="2020-02-19T19:24:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBeds -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="82" started-at="2020-02-18T21:51:49 CST" finished-at="2020-02-18T21:51:49 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="88" started-at="2020-02-19T19:24:12 CST" finished-at="2020-02-19T19:24:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="openChairs()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openChairs" duration-ms="1074" started-at="2020-02-18T21:51:49 CST" finished-at="2020-02-18T21:51:50 CST">
+        <test-method status="PASS" signature="openChairs()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openChairs" duration-ms="1072" started-at="2020-02-19T19:24:12 CST" finished-at="2020-02-19T19:24:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChairs -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="99" started-at="2020-02-18T21:51:50 CST" finished-at="2020-02-18T21:51:50 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="115" started-at="2020-02-19T19:24:13 CST" finished-at="2020-02-19T19:24:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="openSofas()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openSofas" duration-ms="1083" started-at="2020-02-18T21:51:50 CST" finished-at="2020-02-18T21:51:52 CST">
+        <test-method status="PASS" signature="openSofas()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openSofas" duration-ms="1068" started-at="2020-02-19T19:24:13 CST" finished-at="2020-02-19T19:24:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSofas -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="76" started-at="2020-02-18T21:51:52 CST" finished-at="2020-02-18T21:51:52 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="83" started-at="2020-02-19T19:24:14 CST" finished-at="2020-02-19T19:24:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="openTables()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="openTables" duration-ms="1079" started-at="2020-02-18T21:51:52 CST" finished-at="2020-02-18T21:51:53 CST">
+        <test-method status="PASS" signature="openTables()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="openTables" duration-ms="1068" started-at="2020-02-19T19:24:14 CST" finished-at="2020-02-19T19:24:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openTables -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="80" started-at="2020-02-18T21:51:53 CST" finished-at="2020-02-18T21:51:53 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="102" started-at="2020-02-19T19:24:15 CST" finished-at="2020-02-19T19:24:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="search()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="search" duration-ms="1243" started-at="2020-02-18T21:51:53 CST" finished-at="2020-02-18T21:51:54 CST">
+        <test-method status="PASS" signature="search()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="search" duration-ms="1253" started-at="2020-02-19T19:24:16 CST" finished-at="2020-02-19T19:24:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="86" started-at="2020-02-18T21:51:54 CST" finished-at="2020-02-18T21:51:54 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="81" started-at="2020-02-19T19:24:17 CST" finished-at="2020-02-19T19:24:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="signin" duration-ms="1074" started-at="2020-02-18T21:51:54 CST" finished-at="2020-02-18T21:51:55 CST">
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="signin" duration-ms="1081" started-at="2020-02-19T19:24:17 CST" finished-at="2020-02-19T19:24:18 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="98" started-at="2020-02-18T21:51:55 CST" finished-at="2020-02-18T21:51:55 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="89" started-at="2020-02-19T19:24:18 CST" finished-at="2020-02-19T19:24:18 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="FAIL" signature="support()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="support" duration-ms="1079" started-at="2020-02-18T21:51:55 CST" finished-at="2020-02-18T21:51:56 CST">
+        <test-method status="FAIL" signature="support()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="support" duration-ms="1087" started-at="2020-02-19T19:24:18 CST" finished-at="2020-02-19T19:24:19 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://okmry52647dns.eastus.cloudapp.azure.com:9090/support] but found [http://okmry52647dns.eastus.cloudapp.azure.com:9090/home]]]>
@@ -79,7 +79,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at com.mindtree.selenium.webDriver.testNG.MenuTest.support(MenuTest.java:146)
+at com.mindtree.selenium.webDriver.testNG.MenuTest.support(MenuTest.java:137)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,19 +114,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- support -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="55" started-at="2020-02-18T21:51:56 CST" finished-at="2020-02-18T21:51:56 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="55" started-at="2020-02-19T19:24:19 CST" finished-at="2020-02-19T19:24:19 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="wishlist()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="wishlist" duration-ms="1080" started-at="2020-02-18T21:51:56 CST" finished-at="2020-02-18T21:51:58 CST">
+        <test-method status="PASS" signature="wishlist()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="wishlist" duration-ms="1096" started-at="2020-02-19T19:24:19 CST" finished-at="2020-02-19T19:24:20 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wishlist -->
-        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="home" is-config="true" duration-ms="56" started-at="2020-02-18T21:51:58 CST" finished-at="2020-02-18T21:51:58 CST">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="78" started-at="2020-02-19T19:24:20 CST" finished-at="2020-02-19T19:24:20 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@12cdcf4]" name="close" is-config="true" duration-ms="3084" started-at="2020-02-18T21:51:58 CST" finished-at="2020-02-18T21:52:01 CST">
+        <test-method status="PASS" signature="cart()[pri:1, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="cart" duration-ms="1089" started-at="2020-02-19T19:24:20 CST" finished-at="2020-02-19T19:24:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="home()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="home" is-config="true" duration-ms="74" started-at="2020-02-19T19:24:22 CST" finished-at="2020-02-19T19:24:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.mindtree.selenium.webDriver.testNG.MenuTest@25af5db5]" name="close" is-config="true" duration-ms="4655" started-at="2020-02-19T19:24:22 CST" finished-at="2020-02-19T19:24:26 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

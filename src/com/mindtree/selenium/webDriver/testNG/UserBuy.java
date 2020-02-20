@@ -1,19 +1,10 @@
 package com.mindtree.selenium.webDriver.testNG;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
 
-import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.pages.CartPage;
@@ -33,11 +24,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.Connection;
-import java.text.NumberFormat;
 import java.text.ParseException;
-import java.util.List;
 import java.util.Properties;
-import java.util.Random;
 
 public class UserBuy {
 	WebDriver driver;
@@ -76,9 +64,6 @@ public class UserBuy {
 		search.select(driver, randomSelect);
 		logger.info("Selecting furnature");
 
-		// WebElement details = driver.findElement(By.cssSelector(".rounded.ng-star-inserted"));
-		logger.info("Recording Furnatue Details:");
-
 		invoice.setName(item.getName(driver));
 		logger.info("Name: " + invoice.getName(0));
 
@@ -113,7 +98,6 @@ public class UserBuy {
 			logger.info("cart ID found: " + cartID);
 			user.setCartID(cartID);		
 			}
-		
 	}
 
 
@@ -137,7 +121,6 @@ public class UserBuy {
 		cart.placeOrder(driver);
 		logger.info("Placing Order");
 
-		
 		pay.selectPaymentType(driver, randomSelect);
 		logger.info("Selecting payment type: " + randomSelect);
 
@@ -162,8 +145,6 @@ public class UserBuy {
 		}else {
 			logger.info("User ID Matched. Invoice is linked to correct user ");
 			}
-		
-		
 	}
 	
 	@Test(dependsOnMethods = { "placeOrder" })
@@ -176,10 +157,11 @@ public class UserBuy {
 
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("order")+user.getUserID(), Integer.toString(invoice.getInvoiceNumber()));
 	}
+	
 	@AfterTest
 	public void close() {
 		email.send("UserBuy");
 		logger.info("Test Complete");
-		// driver.close();
+		// driver.close();	//Commented out for testing purposes
 	}
 }

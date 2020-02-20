@@ -2,22 +2,12 @@ package com.mindtree.selenium.webDriver.testNG;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 //import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
 
 import com.mindtree.selenium.webDriver.basic.BrowserController;
 import com.mindtree.selenium.webDriver.basic.WindowController;
@@ -31,15 +21,11 @@ import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
 import static org.testng.Assert.assertTrue;
 
-import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.sql.Connection;
-import java.util.List;
 import java.util.Properties;
-import java.util.Random;
 
 public class NewUserLogin {
 	WebDriver driver;
@@ -122,9 +108,6 @@ public class NewUserLogin {
 	@Test(dependsOnMethods = { "openBrowser", "createNewUser" })
 	public void login() throws FileNotFoundException, IOException {
 		SignInPage sign = new SignInPage();
-		Properties p = new Properties();
-		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\login.properties");
-		p.load(file);
 
 		logger.info("Logging in as new user");
 		sign.login(driver, user);
@@ -134,10 +117,10 @@ public class NewUserLogin {
 	public void close() {
 		email.send("NewUserLogin");
 		logger.info("Test Complete");
-		//driver.close();
+		//driver.close();	//Commented out for testing purposes
 	}
 
-	//@Ignore
+	//@Ignore	//Commented out due to it not working on VM for some reason ????
 	public WebDriver openBrowserNonNG() {
 		BrowserController browser = new BrowserController();
 		driver = browser.openBrowser("Chrome");
@@ -156,6 +139,7 @@ public class NewUserLogin {
 		p.load(file);
 		RestResources rest=new RestResources();
 
+		//Verifies user info exists in the Rest API Call
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("phone"), user.getPhone());
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("email"), user.getEmail());
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("profile"), Integer.toString(user.getUserID()));
