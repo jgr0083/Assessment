@@ -2,15 +2,9 @@ package com.mindtree.selenium.webDriver.testNG;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -19,15 +13,12 @@ import com.mindtree.selenium.webDriver.basic.WindowController;
 import com.mindtree.selenium.webDriver.feedback.SendEmail;
 import com.mindtree.selenium.webDriver.pages.HomePage;
 import com.mindtree.selenium.webDriver.pages.MenuBar;
-import com.mindtree.selenium.webDriver.resources.RandomGenerator;
 import com.mindtree.selenium.webDriver.resources.User;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.List;
 import java.util.Properties;
-import java.util.Random;
 
 public class MenuTest {
 	WebDriver driver;
@@ -128,7 +119,7 @@ public class MenuTest {
 		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("wish"));
 	}
 
-	@Ignore
+	@Test(priority=1)
 	public void cart() throws FileNotFoundException, IOException {
 		WindowController ctrl = new WindowController(driver);
 		menu.cart(driver);
