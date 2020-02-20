@@ -64,9 +64,6 @@ public class UserBuy {
 		search.select(driver, randomSelect);
 		logger.info("Selecting furnature");
 
-		// WebElement details = driver.findElement(By.cssSelector(".rounded.ng-star-inserted"));
-		logger.info("Recording Furnatue Details:");
-
 		invoice.setName(item.getName(driver));
 		logger.info("Name: " + invoice.getName(0));
 
@@ -101,7 +98,6 @@ public class UserBuy {
 			logger.info("cart ID found: " + cartID);
 			user.setCartID(cartID);		
 			}
-		
 	}
 
 
@@ -149,8 +145,6 @@ public class UserBuy {
 		}else {
 			logger.info("User ID Matched. Invoice is linked to correct user ");
 			}
-		
-		
 	}
 	
 	@Test(dependsOnMethods = { "placeOrder" })
@@ -168,7 +162,7 @@ public class UserBuy {
 	public void close() {
 		email.send("UserBuy");
 		logger.info("Test Complete");
-		// driver.close();	//commented out for testing purposes
-		
+		// driver.close();	//Commented out for testing purposes
+
 	}
 }

@@ -1,4 +1,4 @@
-package com.mindtree.selenium.webDriver.testNG;
+package com.mindtree.selenium.webDriver.miscTests;
 
 import static org.testng.Assert.assertTrue;
 
