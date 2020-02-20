@@ -25,30 +25,33 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 
-//This class is for debugging the logger
+/*
+ * This class is for debugging only
+ */
+
 public class LoggingTest {
 	WebDriver driver;
-	User user=new User();
-    final static Logger logger = Logger.getLogger(LoggingTest.class);
+	User user = new User();
+	final static Logger logger = Logger.getLogger(LoggingTest.class);
 
-  @Test
-  public void openBrowser() {
-    
-    logger.error("Critical message, almost fatal");
-    logger.warn("Warnings, which may lead to system impact");
-    logger.info("Information");
-    logger.debug("Debugging information ");
+	@Test
+	public void openBrowser() {
 
-  }
-  
-  @Test(dependsOnMethods = {"openBrowser"})
-  public void createNewUser() throws FileNotFoundException, IOException {
-	  	logger.warn("MIddle");
+		logger.error("Critical message, almost fatal");
+		logger.warn("Warnings, which may lead to system impact");
+		logger.info("Information");
+		logger.debug("Debugging information ");
 
-  }
-  
-  @AfterTest
-  public void close() {
-	  	logger.fatal("End");
-  }
+	}
+
+	@Test(dependsOnMethods = { "openBrowser" })
+	public void createNewUser() throws FileNotFoundException, IOException {
+		logger.warn("MIddle");
+
+	}
+
+	@AfterTest
+	public void close() {
+		logger.fatal("End");
+	}
 }

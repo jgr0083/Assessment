@@ -5,6 +5,10 @@ import java.text.ParseException;
 
 import com.mindtree.selenium.webDriver.utils.JDBCDriver;
 
+/*
+ * This class is for debugging only
+ */
+
 public class JDBCTest {
 	public static void main(String[] args) {
 		JDBCDriver jdbc=new JDBCDriver();
