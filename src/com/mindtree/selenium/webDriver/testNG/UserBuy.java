@@ -169,5 +169,6 @@ public class UserBuy {
 		email.send("UserBuy");
 		logger.info("Test Complete");
 		// driver.close();	//commented out for testing purposes
+		
 	}
 }
