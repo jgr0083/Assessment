@@ -128,13 +128,13 @@ public class MenuTest {
 		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("cart"));
 	}
 
-	@Test
+	@Test//This test will fail if not logged in
 	public void support() throws FileNotFoundException, IOException {
 		WindowController ctrl = new WindowController(driver);
 		menu.support(driver);
 		logger.info("Opened support");
 		ctrl.pause(1000);
-		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("support"));//support will fail if not logged in
+		Assert.assertEquals(ctrl.getURL(driver), p.getProperty("support"));//Expected to fail
 	}
 
 	@Test

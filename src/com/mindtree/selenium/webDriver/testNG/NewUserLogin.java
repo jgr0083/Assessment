@@ -108,9 +108,6 @@ public class NewUserLogin {
 	@Test(dependsOnMethods = { "openBrowser", "createNewUser" })
 	public void login() throws FileNotFoundException, IOException {
 		SignInPage sign = new SignInPage();
-		Properties p = new Properties();
-		FileInputStream file = new FileInputStream("..\\Assessment\\properties\\login.properties");
-		p.load(file);
 
 		logger.info("Logging in as new user");
 		sign.login(driver, user);
@@ -120,10 +117,14 @@ public class NewUserLogin {
 	public void close() {
 		email.send("NewUserLogin");
 		logger.info("Test Complete");
+<<<<<<< HEAD
+		//driver.close();	//Commented out for testing purposes
+=======
 		//driver.close();	//commented out for test purposes
+>>>>>>> Dev
 	}
 
-	//@Ignore
+	//@Ignore	//Commented out due to it not working on VM for some reason ????
 	public WebDriver openBrowserNonNG() {
 		BrowserController browser = new BrowserController();
 		driver = browser.openBrowser("Chrome");
@@ -142,6 +143,7 @@ public class NewUserLogin {
 		p.load(file);
 		RestResources rest=new RestResources();
 
+		//Verifies user info exists in the Rest API Call
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("phone"), user.getPhone());
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("email"), user.getEmail());
 		rest.getResponse(p.getProperty("endpoint"), p.getProperty("profile"), Integer.toString(user.getUserID()));
