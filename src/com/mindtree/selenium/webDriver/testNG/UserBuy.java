@@ -162,6 +162,10 @@ public class UserBuy {
 	public void close() {
 		email.send("UserBuy");
 		logger.info("Test Complete");
+<<<<<<< HEAD
 		// driver.close();	//Commented out for testing purposes
+=======
+		// driver.close();	//commented out for testing purposes
+>>>>>>> Dev
 	}
 }

@@ -117,7 +117,11 @@ public class NewUserLogin {
 	public void close() {
 		email.send("NewUserLogin");
 		logger.info("Test Complete");
+<<<<<<< HEAD
 		//driver.close();	//Commented out for testing purposes
+=======
+		//driver.close();	//commented out for test purposes
+>>>>>>> Dev
 	}
 
 	//@Ignore	//Commented out due to it not working on VM for some reason ????
